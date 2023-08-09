@@ -1,0 +1,265 @@
+.main-window {
+  align-items: flex-start;
+  background-color: #e9f1fa;
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 895px;
+  position: relative;
+}
+
+.main-window .header {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: #e9f1fa;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: flex-end;
+  mix-blend-mode: normal;
+  padding: 10px 10px 25px;
+  position: relative;
+  width: 100%;
+}
+
+.main-window .title-wrapper {
+  align-items: flex-end;
+  border-radius: 10px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  overflow: hidden;
+  padding: 10px 0px;
+  position: relative;
+}
+
+.main-window .title {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.main-window .version {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.main-window .header-spacer {
+  align-self: stretch;
+  flex: 1;
+  flex-grow: 1;
+  position: relative;
+}
+
+.main-window .name-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 10px;
+  position: relative;
+}
+
+.main-window .text-wrapper {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.main-window .div {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.main-window .exit-button-wrapper {
+  align-items: flex-start;
+  background-color: #00abe4;
+  border-radius: 10px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  justify-content: flex-end;
+  overflow: hidden;
+  padding: 7px;
+  position: relative;
+}
+
+.main-window .logout {
+  height: 30px;
+  object-fit: cover;
+  position: relative;
+  width: 30px;
+}
+
+.main-window .editor {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 10px;
+  justify-content: center;
+  padding: 0px 10px 10px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.main-window .layers {
+  align-items: flex-start;
+  align-self: stretch;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+
+.main-window .layer-button {
+  align-items: flex-start;
+  background-color: #a4b3ff;
+  border-radius: 0px 15px 15px 0px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+}
+
+.main-window .layer-name-wrapper {
+  align-items: flex-start;
+  background-color: #7bdaef;
+  border-radius: 0px 15px 15px 0px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+}
+
+.main-window .div-wrapper {
+  align-items: flex-start;
+  background-color: #e49095;
+  border-radius: 0px 15px 15px 0px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+}
+
+.main-window .layer-button-2 {
+  align-items: flex-start;
+  background-color: #ff9d57;
+  border-radius: 0px 15px 15px 0px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+}
+
+.main-window .layer-button-3 {
+  align-items: flex-start;
+  background-color: #97f8a1;
+  border-radius: 0px 15px 15px 0px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+}
+
+.main-window .new-layer-button {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: #dbdbdb;
+  border-radius: 0px 15px 15px 0px;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px;
+  position: relative;
+  width: 100%;
+}
+
+.main-window .layer-buttons-spacer {
+  align-self: stretch;
+  flex: 1;
+  flex-grow: 1;
+  position: relative;
+  width: 100%;
+}
+
+.main-window .save-button-wrapper {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  padding: 0px 0px 0px 10px;
+  position: relative;
+  width: 100%;
+}
+
+.main-window .save-button {
+  align-items: center;
+  align-self: stretch;
+  background-color: #00abe4;
+  border-radius: 15px;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 10px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.main-window .save-button-text {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.main-window .text-editor {
+  align-self: stretch;
+  background-color: #ffffff;
+  border-radius: 15px;
+  flex: 1;
+  flex-grow: 1;
+  position: relative;
+}
