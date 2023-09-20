@@ -71,6 +71,9 @@ A web application for marking up texts and searching for terms in parallel scien
 - #E9F1FA - цвет фона;
 - #FFFFFF - цвет полей ввода/вывода;
 - #000000 - цвет текста и иконок.
+
+<br>
+
 Цвета слоёв разметки текстов:
 - #A5B3FF
 - #7CDAEF
